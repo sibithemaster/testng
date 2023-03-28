@@ -1,0 +1,29 @@
+TESTNG:
+
+It is a testing framework inspired from JUnit and NUnit
+but introducing some more functionalities that make it more powerful and easier to use.
+
+TestNG is used to cover all the categories of test:
+
+unit
+functional
+end to end
+integration
+
+
+ADVANTAGES:
+Manage test suite and test cases
+Helps in prioritizing of tests
+Helps in grouping of tests
+parallel execution
+Reporting
+
+
+
+Assertion in TESTNG:
+Assert.assertTrue()
+Assert.assertFalse()
+Assert.assertEquals()
+
+
+DATAPROVIDER IN TESTNG:

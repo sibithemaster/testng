@@ -1,73 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-28T15:54:12 IST" name="Suite Test" finished-at="2023-03-28T15:54:28 IST" duration-ms="15914">
+  <suite started-at="2023-03-29T22:37:12 IST" name="Default suite" finished-at="2023-03-29T22:37:12 IST" duration-ms="106">
     <groups>
     </groups>
-    <test started-at="2023-03-28T15:54:12 IST" name="parametertest" finished-at="2023-03-28T15:54:21 IST" duration-ms="8852">
-      <class name="com.testng.ParameterSample">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.testng.ParameterSample@50b5ac82]" started-at="2023-03-28T15:54:12 IST" name="setup" finished-at="2023-03-28T15:54:18 IST" duration-ms="6501" status="PASS">
+    <test started-at="2023-03-29T22:37:12 IST" name="Default test" finished-at="2023-03-29T22:37:12 IST" duration-ms="106">
+      <class name="com.testng.SampleDataProvider">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testng.SampleDataProvider@68c72235]" started-at="2023-03-29T22:37:12 IST" name="login" data-provider="LoginData" finished-at="2023-03-29T22:37:12 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[abc@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://www.facebook.com/]]>
+                <![CDATA[abc12345]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="findLogo()[pri:1, instance:com.testng.ParameterSample@50b5ac82]" started-at="2023-03-28T15:54:18 IST" name="findLogo" finished-at="2023-03-28T15:54:18 IST" duration-ms="73" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findLogo -->
-        <test-method signature="homePageLogin()[pri:2, instance:com.testng.ParameterSample@50b5ac82]" started-at="2023-03-28T15:54:18 IST" name="homePageLogin" finished-at="2023-03-28T15:54:20 IST" duration-ms="1843" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePageLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testng.ParameterSample@50b5ac82]" started-at="2023-03-28T15:54:20 IST" name="tearDown" finished-at="2023-03-28T15:54:21 IST" duration-ms="370" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.testng.ParameterSample -->
-    </test> <!-- parametertest -->
-    <test started-at="2023-03-28T15:54:21 IST" name="parameterstest" finished-at="2023-03-28T15:54:28 IST" duration-ms="6916">
-      <class name="com.testng.ParameterSample">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.testng.ParameterSample@7205765b]" started-at="2023-03-28T15:54:21 IST" name="setup" finished-at="2023-03-28T15:54:26 IST" duration-ms="4894" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testng.SampleDataProvider@68c72235]" started-at="2023-03-29T22:37:12 IST" name="login" data-provider="LoginData" finished-at="2023-03-29T22:37:12 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[cde@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://www.facebook.com/]]>
+                <![CDATA[cde12345]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="findLogo()[pri:1, instance:com.testng.ParameterSample@7205765b]" started-at="2023-03-28T15:54:26 IST" name="findLogo" finished-at="2023-03-28T15:54:26 IST" duration-ms="57" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testng.SampleDataProvider@68c72235]" started-at="2023-03-29T22:37:12 IST" name="login" data-provider="LoginData" finished-at="2023-03-29T22:37:12 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz12345]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findLogo -->
-        <test-method signature="homePageLogin()[pri:2, instance:com.testng.ParameterSample@7205765b]" started-at="2023-03-28T15:54:26 IST" name="homePageLogin" finished-at="2023-03-28T15:54:27 IST" duration-ms="1621" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePageLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testng.ParameterSample@7205765b]" started-at="2023-03-28T15:54:27 IST" name="tearDown" finished-at="2023-03-28T15:54:28 IST" duration-ms="330" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.testng.ParameterSample -->
-    </test> <!-- parameterstest -->
-  </suite> <!-- Suite Test -->
+        </test-method> <!-- login -->
+      </class> <!-- com.testng.SampleDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

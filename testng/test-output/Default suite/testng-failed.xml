@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.ParameterSample">
+      <class name="com.testng.SampleDataProvider">
         <methods>
-          <include name="homePageLogin"/>
+          <include name="login"/>
           <include name="setup"/>
-          <include name="findLogo"/>
-          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.testng.ParameterSample -->
+      </class> <!-- com.testng.SampleDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

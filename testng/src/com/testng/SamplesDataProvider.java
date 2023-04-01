@@ -7,7 +7,7 @@ public class SamplesDataProvider {
 	@DataProvider(name = "LoginData")
 	public Object[][] loginDataProvider()
 	{
-		Object[][] dataValue= {{"abc@gmail.com","abc12345"},{"cde@gmail.com","cde12345"},{"xyz@gmail.com","xyz12345"}};
+		Object[][] dataValue= {{"roshini@gmail.com","rosh12345"},{"deepak@gmail.com","deepak12345"},{"sibi@gmail.com","sibi12345"}};
 		return dataValue;
 		
 	}

@@ -27,7 +27,11 @@ Assert.assertEquals()
 
 
 DATAPROVIDER IN TESTNG:
-Apart from parameters, there is another way to achieve parameterization which is by using Data Provider.
+Apart from parameters, there is another way to achieve 
+parameterization which is by using Data Provider.
 
 
-
+PARALLEL TESTING:
+Run methods
+Run test
+Run suite

@@ -2,53 +2,53 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-29T22:37:12 IST" name="Default suite" finished-at="2023-03-29T22:37:12 IST" duration-ms="106">
+  <suite started-at="2023-03-31T15:35:26 IST" name="Default suite" finished-at="2023-03-31T15:35:26 IST" duration-ms="86">
     <groups>
     </groups>
-    <test started-at="2023-03-29T22:37:12 IST" name="Default test" finished-at="2023-03-29T22:37:12 IST" duration-ms="106">
+    <test started-at="2023-03-31T15:35:26 IST" name="Default test" finished-at="2023-03-31T15:35:26 IST" duration-ms="86">
       <class name="com.testng.SampleDataProvider">
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testng.SampleDataProvider@68c72235]" started-at="2023-03-29T22:37:12 IST" name="login" data-provider="LoginData" finished-at="2023-03-29T22:37:12 IST" duration-ms="9" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testng.SampleDataProvider@68c72235]" started-at="2023-03-31T15:35:26 IST" name="login" data-provider="LoginData" finished-at="2023-03-31T15:35:26 IST" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[abc@gmail.com]]>
+                <![CDATA[roshini@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[abc12345]]>
+                <![CDATA[rosh12345]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testng.SampleDataProvider@68c72235]" started-at="2023-03-29T22:37:12 IST" name="login" data-provider="LoginData" finished-at="2023-03-29T22:37:12 IST" duration-ms="4" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testng.SampleDataProvider@68c72235]" started-at="2023-03-31T15:35:26 IST" name="login" data-provider="LoginData" finished-at="2023-03-31T15:35:26 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[cde@gmail.com]]>
+                <![CDATA[deepak@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[cde12345]]>
+                <![CDATA[deepak12345]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testng.SampleDataProvider@68c72235]" started-at="2023-03-29T22:37:12 IST" name="login" data-provider="LoginData" finished-at="2023-03-29T22:37:12 IST" duration-ms="4" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testng.SampleDataProvider@68c72235]" started-at="2023-03-31T15:35:26 IST" name="login" data-provider="LoginData" finished-at="2023-03-31T15:35:26 IST" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[xyz@gmail.com]]>
+                <![CDATA[sibi@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[xyz12345]]>
+                <![CDATA[sibi12345]]>
               </value>
             </param>
           </params>

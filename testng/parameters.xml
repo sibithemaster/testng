@@ -3,7 +3,7 @@
 <suite name="Suite Test">
 
   <parameter name="browser" value="chrome"></parameter>
-  <parameter name="url" value="https://www.facebook.com/"></parameter>
+  <parameter name="url" value="https://www.facebook.com"></parameter>
   <test name="parametertest">
     <classes>
       <class name="com.testng.ParameterSample"/>
@@ -12,7 +12,7 @@
   
   
    <parameter name="browser" value="edge"></parameter>
-  <parameter name="url" value="https://www.facebook.com/"></parameter>
+  <parameter name="url" value="https://www.facebook.com"></parameter>
   <test name="parameterstest">
     <classes>
       <class name="com.testng.ParameterSample"/>

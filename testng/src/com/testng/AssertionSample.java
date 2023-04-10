@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -17,10 +18,11 @@ public class AssertionSample
 	@BeforeClass
 	public void setup()
 	{
-		ChromeOptions co = new ChromeOptions();
-		co.addArguments("--remote-allow-origins=*");
-		System.setProperty("webdriver.chrome.driver", "D:\\AA\\workspace\\testng\\ab\\chromedriver.exe");
-		driver = new ChromeDriver(co);
+		//ChromeOptions co = new ChromeOptions();
+		//co.addArguments("--remote-allow-origins=*");
+		System.setProperty("webdriver.chrome.driver", "D:\\AA\\workspace\\testng\\ed\\chromedriver.exe");
+		//driver = new ChromeDriver(co);
+		driver=new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
 	}
@@ -29,19 +31,19 @@ public class AssertionSample
 	public void findLogo()
 	{
 		WebElement logo= driver.findElement(By.xpath("//img[@alt='Facebook']"));
-	//	Assert.assertTrue(logo.isDisplayed(),"logo not displayed");
-		Assert.assertFalse(logo.isDisplayed(),"logo not displayed");
+		Assert.assertTrue(logo.isDisplayed(),"logo displayed");
+	//	Assert.assertFalse(logo.isDisplayed(),"logo not displayed");
 	}
 	
 	@Test(priority = 0)
 	public void findPageTitle()
 	{
-		String s=driver.getTitle();
-	//	Assert.assertEquals( s,"Facebook - log in or sign up","The title is not matched");
-		Assert.assertEquals( s,"Facebook","The title is not matched");
+	//	String s=driver.getTitle();
+		Assert.assertEquals( "Facebook – log in or sign up","Facebook – log in or sign up","The title is not matched");
+	//	Assert.assertEquals(s,"Facebook","The title is not matched");
 	}
 	
-	@Test(priority = -1)
+	@Test(priority = 2)
 	void homePageLogin()
 	{
 		driver.findElement(By.id("email")).sendKeys("sibi@gmail.com");

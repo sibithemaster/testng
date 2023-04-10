@@ -9,22 +9,21 @@ public class TestFive
 	@Test
 	public void government()
 	{
-		System.out.println("This is first method...");
-		Assert.fail();
+		System.out.println("This is government method...");
 	}
 	
 	@Test(dependsOnMethods ="government")
 	public void road() 
 	{
 		System.out.println("This is road method");	
-	//	Assert.fail();
+	
 	}
 
 	@Test(dependsOnMethods ="road")
 	public void car()
 	{
 		System.out.println("This is car method...");
-	//	Assert.fail();
+	    Assert.fail();
 	}
 
 	@Test(dependsOnMethods ={"car","road"},alwaysRun = true)

@@ -46,13 +46,13 @@ public class ParameterSample
 		//Assert.assertFalse(logo.isDisplayed(),"logo not displayed");
 	}
 	
-//	@Test(priority = 0)
-//	void findPageTitle()
-//	{
-//		String s=driver.getTitle();
-//	//	Assert.assertEquals( s,"Facebook - log in or sign up","The title is not matched");
-//		Assert.assertEquals( s,"Facebook","The title is  matched");
-//	}
+	@Test(priority = 0)
+	void findPageTitle()
+	{
+		String s=driver.getTitle();
+		Assert.assertEquals( s,"Facebook – log in or sign up","The title is matched");
+	//	Assert.assertEquals( s,"Facebook","The title is not matched");
+	}
 	
 	@Test(priority = 2)
 	void homePageLogin()

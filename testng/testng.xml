@@ -6,7 +6,10 @@
       <class name="com.testng.TestOne"/>
       <class name="com.testng.TestTwo"/>
       <class name="com.testng.TestThree"/>
-      <class name="com.testng.TestFour"></class>
+      <class name="com.testng.TestFour"/>
+      <class name="com.testng.TestFive"/>
+      <class name="com.testng.AssertionSample"/>
+      <class name="com.testng.SampleDataProvider"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

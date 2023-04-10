@@ -1,7 +1,8 @@
 TESTNG:
 
 It is a testing framework inspired from JUnit and NUnit
-but introducing some more functionalities that make it more powerful and easier to use.
+but introducing some more functionalities that make 
+it more powerful and easier to use.
 
 TestNG is used to cover all the categories of test:
 

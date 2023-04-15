@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.paralleltesting.ParallelTest">
+      <class name="com.testng.A">
         <methods>
-          <include name="homePageTitle"/>
-          <include name="logo"/>
-          <include name="close"/>
+          <include name="testCaseThree"/>
         </methods>
-      </class> <!-- com.paralleltesting.ParallelTest -->
+      </class> <!-- com.testng.A -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

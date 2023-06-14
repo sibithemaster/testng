@@ -26,6 +26,13 @@ Assert.assertTrue()
 Assert.assertFalse()
 Assert.assertEquals()
 
+If test case fails for particular Assert
+then there wont be no test will run after Assert.assertTrue()->Fails
+
+SoftAssert:
+We need to create object for SoftAssert.
+To terminate softAssert we need to give softAssert.assertALL();
+It will show all the failed test cases at the end of process.
 
 DATAPROVIDER IN TESTNG:
 Apart from parameters, there is another way to achieve 
